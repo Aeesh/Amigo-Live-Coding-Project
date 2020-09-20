@@ -11,7 +11,7 @@ document.getElementById("btn").addEventListener("click", function() {
     else
     {
       // window.location.assign("online link.html", 500)
-      window.location.href = "https://google.com", 500;
+      window.location.href = "https://amigo-ui-translate.netlify.app", 500;
       alert(`Redirecting ${email.value} to Dashboard: `)
     }
   }
@@ -19,9 +19,3 @@ document.getElementById("btn").addEventListener("click", function() {
     alert("User name or Password incorrect")
   }
 });
-
-var loggedIn = () =>
-{
-  window.location.href = "http://www.w3schools.com";
-} 
-
