@@ -11,7 +11,7 @@ document.getElementById("btn").addEventListener("click", function() {
     else
     {
       // window.location.assign("online link.html", 500)
-      window.location.href = "https://amigo-ui-translate.netlify.app", 500;
+      window.location.href = "https://amigos-ui-contribution.netlify.app/ui-contribution/ui-translated/contents/confirm.html", 500;
       alert(`Redirecting ${email.value} to Dashboard: `)
     }
   }
