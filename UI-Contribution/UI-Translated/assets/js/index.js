@@ -2,7 +2,7 @@ email = document.getElementById("email");
 var password = document.getElementById("password").value;
 var message = document.getElementById("message");
 document.getElementById("btn").addEventListener("click", function() {
-  if (email.value == "unclebigbay@gmail.com"){
+  if (email.value == "amigo@gmail.com"){
     const check = confirm("Continue to login as " + email.value);
     if (check == false)
     {
