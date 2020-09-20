@@ -1,0 +1,116 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.login-container{
+  z-index: 99;
+  background-image: linear-gradient(110deg, #fff 50%,  rgb(33, 94, 155) 40%);
+  /* background-image: linear-gradient(110deg, #fff 50%,  rgb(0, 58, 116) 40%); */
+}
+.login-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  height: 100vh;
+}
+
+.section{
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: linear-gradient(110deg, #fff 50%,  rgb(0, 58, 116) 40%); */
+  background-image: linear-gradient(110deg, #fff 50%,  rgb(33, 94, 155) 40%);
+  box-shadow: 1px 2px 9px 6px rgba(0,0,0,0.4);
+  width: 95%;
+  height: 80%;
+}
+.section-1{
+  width: 50%;
+  margin-bottom: 80px;
+}
+.section-1 img{
+  max-width: 40%;
+}
+.about{
+  position: relative;
+  bottom: 2.5rem;
+  right: 1.9rem;
+}
+.section-1 .about h3{
+  font-size: 45px;
+}
+.section-1 .about p{
+  margin-left: 2rem;
+  font-size: 1.4rem;
+}
+.section-2 form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 50px;
+  color: #fff;
+}
+label{
+  font-weight: 600;
+}
+.section-2 form input[type="email"],
+.section-2 form input[type="password"]{
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: Cambria;
+  outline: none;
+}
+#goto-right a{
+  text-decoration: none;
+  color: dodgerblue;
+  margin: 12px;
+}
+.section-2 form input[type=submit]{
+  padding: 16px;
+  border: none;
+  background:dodgerblue;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 700px){
+  .section{
+    flex-direction: column;
+  }
+  .login-container{
+    z-index: 99;
+    background-image: linear-gradient(#fff 40%, #fff 50%);
+    /* background-image: linear-gradient(110deg, #fff 50%,  rgb(0, 58, 116) 40%); */
+  }  
+  .section{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(110deg, #fff 50%,  rgb(0, 58, 116) 40%); */
+    background-image: linear-gradient(180deg, #fff 50%,  rgb(33, 94, 155) 40%);
+    box-shadow: 1px 2px 9px 6px rgba(0,0,0,0.4);
+    width: 95%;
+    height: 80%;
+  }
+  .section-1 img{
+    display: block;
+    margin: 0 auto;
+  }
+  .section-1 .about h3,
+  .section-1 .about p {
+    white-space: nowrap;
+    margin: auto;
+  }
+  .section-2{
+    position: relative;
+    top: 15%;
+  }
+  
+}
